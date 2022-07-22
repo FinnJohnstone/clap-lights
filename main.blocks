@@ -1,0 +1,73 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="pu0=jkH1d5mBt?,bh9/d">lights0n.</variable></variables><block type="input_on_sound" id="bbVE-sP8c9y6xU^?CQq^" x="0" y="0"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="9:2E@bVeU(/3ogU]Dg-)"><field name="VAR" id="pu0=jkH1d5mBt?,bh9/d">lights0n.</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_negate" id="h1W|/V~I,-X@)=E6Z184"><value name="BOOL"><block type="variables_get" id="gLGSDKfA8YRtOmklL^r7"><field name="VAR" id="pu0=jkH1d5mBt?,bh9/d">lights0n.</field></block></value></block></value><next><block type="controls_if" id="EgXl+X`Cax)]J^vrLA,f"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="NW{jl}Q#{6N=;zNH79Ed"><field name="VAR" id="pu0=jkH1d5mBt?,bh9/d">lights0n.</field></block></value><statement name="DO0"><block type="basic_show_icon" id="uW^3pzXoZ_RRHjnB1@sD"><field name="i">IconNames.EigthNote</field><next><block type="device_show_leds" id="8-w1v.65/|y/;b-V).HB"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        # . . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="Pt@r3$qeM^?ba*iZOJzI"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        # . . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="V7$CEsDW_WDsVp=NuxgM"><field name="LEDS">`
+        . . . . . 
+        . . # . # 
+        . . # . # 
+        # . . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="hq-;|BPGa)I;^K=*x-*l"><field name="LEDS">`
+        . . . . . 
+        # . # . . 
+        # . # . . 
+        . . . . # 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="J;md5i[@hTG-3{^sKjUz"><field name="LEDS">`
+        . . . . . 
+        . . # . # 
+        . . # . # 
+        # . . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="9$]_V?UvS[fw%NN^fDUT"><field name="LEDS">`
+        . . . . . 
+        # . # . . 
+        # . # . . 
+        . . . . # 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="xU=(2@yZRZ~sm/xq`IIC"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="mz2zz5tZvR*.b6HgDFgY"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # . # # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="!J(Kf@[6KoU5*TR`P?jw"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="DTlfAsM7)SUoau(-bsH:"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="=IE-8?groJBjK@m)RVir"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="olm.Aq8o^I@BYl~6ipgv"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_clear_display" id=",J%wP8x(6^*%/[s:oWs_"></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="f~p$7erVoJ@^~I6l.|Bl" x="265" y="117"><statement name="HANDLER"><block type="input_set_sound_threshold" id="V;F2Z@3#B_l];0[KlV9h"><field name="sound">SoundThreshold.Loud</field><value name="value"><shadow type="math_number_minmax" id="79EF[;N)HYgmcCw5*DU+"><mutation min="0" max="255" label="Threshold" precision="0"></mutation><field name="SLIDER">200</field></shadow></value></block></statement></block><block type="input_logo_event" id="KKTC|/0HNpurKFxKl}Dc" x="316" y="277"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_set" id="I0c%I^7c;eR05hyo3fzT"><field name="VAR" id="pu0=jkH1d5mBt?,bh9/d">lights0n.</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_negate" id="Z2i7K_=BwE0NW7#v7??r"><value name="BOOL"><block type="variables_get" id="9$%u(2m61%Up69i+~;vd"><field name="VAR" id="pu0=jkH1d5mBt?,bh9/d">lights0n.</field></block></value></block></value><next><block type="controls_if" id=";=:smXN}AZyD`ONEsGt)"><value name="IF0"><shadow type="logic_boolean" id="47[xnjU#8RC[`:nWD@z!"><field name="BOOL">TRUE</field></shadow></value><statement name="DO0"><block type="device_print_message" id="QR4]OrB5KU]3Bz[-6#Ws"><value name="text"><shadow type="text" id="l=8JJ)vc0KvB#dYTD/EC"><field name="TEXT">Hello! I'm Bleep ^U^</field></shadow></value></block></statement></block></next></block></statement></block></xml>
